@@ -18,4 +18,12 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\IschoolCoreApp.Application\IschoolCoreApp.Application.csproj" />
+    <ProjectReference Include="..\IschoolCoreApp.Data.EF\IschoolCoreApp.Data.EF.csproj" />
+    <ProjectReference Include="..\IschoolCoreApp.Data\IschoolCoreApp.Data.csproj" />
+    <ProjectReference Include="..\IschoolCoreApp.Infrastructure\IschoolCoreApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\IschoolCoreApp.Utilities\IschoolCoreApp.Utilities.csproj" />
+  </ItemGroup>
+
 </Project>
